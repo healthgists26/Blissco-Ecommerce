@@ -94,7 +94,29 @@
     height: 40px;
     border-radius: 5px;
     font-size: 16px;
+    transition: all 0.3s ease;
 }
+
+.cat-heading button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.cat-box .box-price{
+    display: flex;
+    gap: 20px;
+}
+
+.cat-box .box-price p{
+    color: rgba(0, 0, 1,);
+}
+
+.cat-box .box-price span{
+    color: rgb(94, 93, 93);
+    text-decoration: line-through;
+}
+
 
 /* Top Announcement Bar */
 .top-bar {
@@ -128,6 +150,16 @@
   align-items: center;
   gap: 5px;
   cursor: pointer;
+}
+
+/* SPEAKER SECTION */
+/* SPEAKER SECTION */
+.speaker{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  margin: 10px 50px;
+  height: 500px;
 }
 
 /* Navigation Bar -- navigator*/
