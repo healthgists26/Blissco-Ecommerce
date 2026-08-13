@@ -19,77 +19,8 @@
   margin-top: 20px;
 }
 
-/* HHHEERRROOOOOOO */
-/* HHHEERRROOOOOOO */
-
-.hero{
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
-}
-
-.hero-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: left;
-}
-
-.hero-content{
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0px;
-  gap: 40px;
-}
-
-.hero-img{
-  width: 892px;
-  height: 344px;
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.hero-text-left{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero-text-left span{
-  color: white
-}
-.hero-text h1{
-  color: white;
-  font-size: 48px;
-}
-.hero-text p{
-  color: white;
-  text-decoration: underline;
-  font-size: 16px;
-}
-
-.hero-text-left img{
-  width: 40px;
-  height: 49px;
-}
-
-.hero-phone img{
-  width:450px; 
-}
-
-.hero-bottom img{
-  width: 60px;
-}
-
 
 /* NAV BAR */
-
-
 .heading{
   padding-bottom: 40px;
 }
@@ -210,6 +141,107 @@
   gap: 5px;
   cursor: pointer;
 }
+
+/* HHHEERRROOOOOOO */
+/* HHHEERRROOOOOOO */
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+.hero-content{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  gap: 40px;
+}
+
+.hero-img{
+  width: 892px;
+  height: 344px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-text-left{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-text-left span{
+  color: white
+}
+.hero-text h1{
+  color: white;
+  font-size: 48px;
+}
+.hero-text p{
+  color: white;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.hero-text-left img{
+  width: 40px;
+  height: 49px;
+}
+
+.hero-phone img{
+  width:450px; 
+}
+
+.hero-bottom img{
+  width: 60px;
+}
+
+/* TODAY'S */
+/* TODAY'S */
+
+.sub-cat-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+
+}
+
+.period{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.periods{
+  display: flex;
+  flex-direction: column;
+}
+
+.ratio{
+  width:5px;
+  margin-top: 25px;
+}
+
+/* .cat-box-marq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 /* SPEAKER SECTION */
 /* SPEAKER SECTION */
