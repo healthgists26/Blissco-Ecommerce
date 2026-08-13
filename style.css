@@ -447,6 +447,87 @@
 }
 
 
+/* OUR PRODUCT */
+/* OUR PRODUCT */
+
+.our-products{
+  padding-top: 50px;
+}
+
+.dual-dots{
+  width: 35px;
+}
+
+.View{
+  margin-bottom:60px;
+  margin-left: 45%;
+}
+
+
+/* FEATURED */
+/* FEATURED */
+.arrival-img{
+  display:flex;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.arrival-img-left img{
+  width: 570px;
+  height: 600px;
+}
+
+.arrival-img-right{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.arrival-img-right-top img{
+  width: 570px;
+  height: 284px;
+}
+
+.arrival-img-rightbtm{
+  display: flex;
+  gap: 30px;
+}
+
+.arrival-img-rightbtm img{
+  width: 270px;
+  height: 284px;
+}
+
+
+/* TOAST-SECTION */
+/* TOAST-SECTION */
+.toast-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.toast-section img{
+  width:80px;
+  height: 80px;
+}
+
+.toast-section h4{
+  font-size: 20px;
+}
+
+.toast-section p{
+  font-size: 12px;
+}
+.toast{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
 
 /* Top Announcement Bar */
 /* Top Announcement Bar */
