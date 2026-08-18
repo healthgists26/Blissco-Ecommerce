@@ -235,6 +235,16 @@
   align-items: left;
 }
 
+.hero-text a{
+  text-decoration: none;
+}
+
+.hero-text a:hover{
+  color:#000;
+  font-size:18px;
+  font-weight: 600 ;
+}
+
 .hero-content {
   display: flex;
   justify-content: space-evenly;
@@ -517,6 +527,22 @@
   padding-bottom: 50px;
 }
 
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box a{
+  text-decoration: none;
+}
+
+.box a:hover{
+  cursor: pointer;
+  color:#1a1a1a;
+  font-weight: 600;
+}
 .box2 {
   display: flex;
   flex-direction: column;
