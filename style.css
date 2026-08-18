@@ -534,6 +534,12 @@
   align-items: center;
 }
 
+.box:hover{
+  border-radius: 20px;
+  border: 3px solid #000;
+  box-shadow: #000;
+}
+
 .box a{
   text-decoration: none;
 }
@@ -549,12 +555,39 @@
   align-items: left;
   justify-content: center;
   gap: 10px;
-
 }
 
 .box-img {
   width: 270px;
   height: 250px;
+  position: relative;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-img img{
+  width: 172px;
+  height: 152px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap:15px;
+  top: 20px;
+  right: 20px;
+}
+
+.icon-btn{
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 100%;
+  /* outline: none; */
+  border: none;
 }
 
 .box2 p {
